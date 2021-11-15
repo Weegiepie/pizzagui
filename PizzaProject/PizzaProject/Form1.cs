@@ -20,9 +20,9 @@ namespace PizzaProject
         private void button1_Click(object sender, EventArgs e)
         {
             //Conditions need to be added. Lines 23 - 25 switch load Form2 and vise versa.
-            this.Hide();
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
+            Hide();
+            Form2 mainMenu = new Form2();
+            mainMenu.ShowDialog();
         }
     }
 }
